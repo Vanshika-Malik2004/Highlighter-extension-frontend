@@ -1,8 +1,9 @@
 "use client";
 import Header from "./header";
+import FeaturesGrid from "../grid";
 export default function Hero() {
   return (
-    <div className="overflow-x-hidden bg-gray-50 min-h-screen flex flex-col items-center justify-center">
+    <div className="overflow-x-hidden min-h-screen flex flex-col items-center justify-center">
       <Header />
       <section className="min-h-screen flex items-center justify-center">
         <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -31,7 +32,9 @@ export default function Hero() {
           </div>
         </div>
       </section>
-      <section className="bg-gray-50 min-h-screen"></section>
+      <section className="min-h-screen display-grid justify-center items-center p-10 mx-auto max-w-7xl sm:p-6 lg:p-10 xl:p-12">
+        <FeaturesGrid />
+      </section>
     </div>
   );
 }

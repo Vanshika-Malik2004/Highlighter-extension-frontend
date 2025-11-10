@@ -20,7 +20,11 @@
 }
 
 body {
-  background: var(--background);
+  background-image: url("/mesh.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   color: var(--foreground);
   font-family: var(--font-inter), -apple-system, BlinkMacSystemFont, "Segoe UI",
     sans-serif;
