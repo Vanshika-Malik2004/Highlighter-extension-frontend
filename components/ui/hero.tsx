@@ -22,9 +22,9 @@ export default function Hero() {
             </p>
 
             <div className="px-8 sm:flex sm:items-center sm:justify-center sm:px-0 sm:space-x-5 mt-9">
-              <a className="inline-flex items-center justify-center w-full px-8 py-3 text-lg font-bold text-white bg-gray-900 rounded-xl sm:w-auto hover:bg-gray-600">
+              <button className="inline-flex items-center justify-center w-full px-8 py-3 text-lg font-bold text-white bg-gray-900 rounded-xl sm:w-auto hover:bg-gray-600 cursor">
                 Get the Chrome Extension
-              </a>
+              </button>
             </div>
             <p className="mt-8 text-base text-gray-500">
               Read. Highlight. Remember. Repeat.
